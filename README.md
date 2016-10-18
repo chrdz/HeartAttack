@@ -19,5 +19,5 @@ TD4 :
 
 -Correction of the matrix
 -Correction of the second member
--Test with the fonction u = cos(k1*Pi*x)*cos(k2*Pi*y) : error ok decrease at a O(h**2) rate
+-Test with the fonction u = cos(k1*Pi*x)*cos(k2*Pi*y) : error ok decrease at a O(h^2) rate
 
