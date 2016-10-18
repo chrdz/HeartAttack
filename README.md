@@ -22,5 +22,5 @@ TD4 :
 
 -Correction of the second member
 
--Test with the fonction $u = cos(k1ix)cos(k2Piy)$ : error ok decrease at a O(h^2) rate
+-Test with the fonction [\u = cos(k1ix)cos(k2Piy)\] : error ok decrease at a O(h^2) rate
 
