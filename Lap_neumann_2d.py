@@ -4,7 +4,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 import scipy.sparse as sp
 from scipy.sparse.linalg import spsolve
-from function import *
 
 Lxmin=-1
 Lxmax=1
