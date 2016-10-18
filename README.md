@@ -14,7 +14,7 @@ TD3 :
 
 -Discretization of the minimal model taking into consideration of boundary conditions
 
--Test with the fonction u = cos(k1*Pi*x)*cos(k2*Pi*y) : error not small enough ==> wrong matrix
+-Test with the fonction u = cos(k1Pix)cos(k2*Piy) : error not small enough ==> wrong matrix
 
 TD4 :
 
