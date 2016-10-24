@@ -8,7 +8,7 @@ TD1 :
 
 TD2 :
 
--Implementation and plotting of the minimal model functions (c.f. https://github.com/tguegan/HeartAttack/commit/4cf0d0738e94c520db184519d0d9d3825eb4ce73)
+-Implementation and plotting of the minimal model functions without the laplacian
 
 TD3 :
 
@@ -23,4 +23,3 @@ TD4 :
 -Correction of the second member
 
 -Test with the fonction u = cos(k1ix)cos(k2Piy) : error ok decrease at a O(h^2) rate
-
