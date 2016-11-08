@@ -3,7 +3,9 @@
 TD1 :
 
 -Setup of a Git/Github repository
+
 -Reading/Comprehension of the minimal model
+
 -Discretization of the model using the finite differences method with the Euler explicit method
 
 TD2 :
@@ -23,3 +25,15 @@ TD4 :
 -Correction of the second member
 
 -Test with the fonction u = cos(k1ix)cos(k2Piy) : error ok decrease at a O(h^2) rate
+
+TD5 :
+
+-Print colormesh : does not show the expected result (difference of potential does not go back to zero)
+
+
+TD6 : 
+
+-The previous error was due to the scale of the colormap
+
+-Test with different sets of parameters (first impulsion EPI : 0.5, PB : 1)
+(cf. gif)
