@@ -33,7 +33,10 @@ for i in range(1,Nt+1):
 
     if (i*dt)%2==0:
         if i*dt==10:
-            un1.reshape(Nx,Nx)[Nx//2-3:Nx//2+3,Nx//2-3:Nx//2+3]=1.
+            #Impulsion carrée au milieu
+            #un1.reshape(Nx,Nx)[Nx//2-3:Nx//2+3,Nx//2-3:Nx//2+3]=1.
+            #Impulsion bande à gauche
+            un1.reshape(Nx,Nx)[0:-1,0:2]=1.
             y0[0]=un1
         plt.title("%s : t = %1.2f ms"%(var_type,i*dt))
         plt.pcolormesh(x,x,y0[0].reshape(Nx,Nx),vmin=0,vmax=1,cmap='summer')
