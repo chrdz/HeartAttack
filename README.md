@@ -35,6 +35,16 @@ TD6 :
 
 -The previous error was due to the scale of the colormap
 
--Test with different sets of parameters (first impulsion EPI : 0.5, PB : 1)
+-Test with different sets of parameters (first impulse EPI : 0.5, PB : 1)
 
 ![alt tag](https://raw.githubusercontent.com/tguegan/HeartAttack/master/euler-epi.gif)
+
+TD7 :
+
+-Sketch of the report
+
+![alt tag](https://raw.githubusercontent.com/tguegan/HeartAttack/master/euler-bande-epi.gif)
+
+-Test with a different impulse : rectangle
+
+-Try new impulse : rectangle + square latter
