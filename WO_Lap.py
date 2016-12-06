@@ -39,7 +39,8 @@ def dy(y, t):
     return [du, dv, dw, ds]
 
 y0 = [0.31, 1, 1, 0]
-t = np.linspace(0, 400, 1000)
+t = np.linspace(0, 300, 1000)
 y = odeint(dy, y0, t)
 plt.plot(t, Jfi(y[:,0],y[:,1]), t, Jso(y[:,0]), t, Jsi(y[:,0],y[:,2],y[:,3]))
+plt.title("Without Laplacian")
 plt.show()
